@@ -1,7 +1,7 @@
 {
   "name": "crud-rest",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/server.js",
   "repository": "https://github.com/robsonosorio/crud-rest.git",
   "license": "MIT",
   "scripts": {
