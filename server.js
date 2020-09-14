@@ -33,16 +33,15 @@ const registros = [{
         'registroponto': {
             'colaborador': {
                 'matricula':'1124',
-                'nome': 'Joao',
-                'email': 'joao.osorioo@gmail.com'
+                'nome': 'Davi',
+                'email': 'davi.osorioo@gmail.com'
             },
             'registrohora': {
                 'data':'15/09/2020',
                 'hora':'14:30',
                 'indicador':'Entrada'
             }
-    }}
-]
+    }}]
 
 // Request body = {"nome":"Robson", "email":"robson.osorioo@gmail.com"}
 server.get('/registros/:index', (req, res) =>{
